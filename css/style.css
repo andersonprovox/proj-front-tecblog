@@ -43,6 +43,13 @@ body {
   width: 240px;
   float: right;
 }
+
+.conteudo-lateral {
+  background-color: var(--contrastColor);
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
 #rodape {
   width: 920px;
   clear: both;
@@ -54,6 +61,12 @@ body {
   padding: 20px;
   margin-bottom: 20px;
   background: var(--contrastColor);
+}
+
+.postagem-lateral {
+  font-size: 0.8em;
+  padding: 5px;
+  border-bottom: 1px dotted #ccc;
 }
 
 .img-post {
@@ -98,6 +111,11 @@ h2 {
   font-size: 2.5em;
 }
 
+h3 {
+  color: #565656;
+  background: #ccc;
+}
+
 .branco {
   color: var(--contrastColor);
 }
@@ -109,3 +127,4 @@ h2 {
   margin-bottom: 10px;
   display: block;
 }
+
